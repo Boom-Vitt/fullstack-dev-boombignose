@@ -1,5 +1,16 @@
+<!-- BBN:HEADER:START -->
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+
+<img src=".github/brand/banner.svg" width="100%" alt="Ask the Manual — Upload manuals and chat with them via Gemini File Search" />
+
+<a href="https://github.com/Boom-Vitt/fullstack-dev-boombignose/stargazers"><img src="https://img.shields.io/github/stars/Boom-Vitt/fullstack-dev-boombignose?style=flat-square&color=14b8a6&labelColor=0b1220" alt="stars" /></a>
+<a href="https://github.com/Boom-Vitt/fullstack-dev-boombignose/commits/main"><img src="https://img.shields.io/github/last-commit/Boom-Vitt/fullstack-dev-boombignose?style=flat-square&color=14b8a6&labelColor=0b1220" alt="last commit" /></a>
+<a href="https://github.com/Boom-Vitt"><img src="https://img.shields.io/badge/by-BoomBigNose-14b8a6?style=flat-square&labelColor=0b1220" alt="by BoomBigNose" /></a>
+
+</div>
+<!-- BBN:HEADER:END -->
+
+<div align="center">
 </div>
 
 # Run and deploy your AI Studio app
@@ -58,3 +69,15 @@ View your app in AI Studio: https://ai.studio/apps/bundled/ask_the_manual
 - **Landing page (“Talk to a document”)** – lists every manual in your account so you can pick which one to chat with. Manual chat history is saved in Postgres, so refreshing the page will reload the previous conversation.
 - **Upload page** – lives on its own tab. Give the manual a friendly name, upload one or more files, and the app will create a Gemini FileSearch store plus a database record. Uploading no longer auto-enters the chat; switch back to the landing tab to start a new conversation with the freshly uploaded manual.
 - **Login/Logout/Signup** – handled entirely via the new backend API. The frontend automatically persists cookies and rehydrates the current session on refresh.
+
+<!-- BBN:FOOTER:START -->
+---
+
+<div align="center">
+
+**สร้างโดย [BoomBigNose](https://github.com/Boom-Vitt)** · [Kruoop.com](https://kruoop.com) แหล่งเรียน AI + คอมมูนิตี้ · [Seeneo.ai](https://seeneo.ai) · [YouTube 220K](https://www.youtube.com/@BoomBigNose)
+
+<sub>ถ้าโปรเจกต์นี้มีประโยชน์ กด ⭐ ให้กำลังใจกันได้เลย</sub>
+
+</div>
+<!-- BBN:FOOTER:END -->
